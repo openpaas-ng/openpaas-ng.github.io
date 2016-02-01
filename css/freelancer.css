@@ -78,10 +78,13 @@ hr.star-primary:after {
     margin: 0 auto;
 }
 
+.colored-background {
+    background: #488fcc;
+}
+
 header {
     text-align: center;
     color: #fff;
-    background: #488fcc;
 }
 
 header .container {
@@ -191,7 +194,7 @@ section {
 }
 
 section h2 {
-    margin: 0;
+    margin: 10px 0 0 0;
     font-size: 1.8em;
 }
 section h3 {
@@ -529,8 +532,4 @@ footer .footer-below {
 }
 .iconscolor{
     color: #488FCC;
-}
-
-.latest-blog iframe {
-    margin: auto;
 }
