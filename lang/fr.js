@@ -52,5 +52,6 @@ languages.fr = {
   VIDEOS_TITLE: 'Dernières Vidéos',
   TWITTER_TITLE: 'Derniers Tweets',
   LATEST_VIDEOS: 'Dernières Vidéos',
-  LATEST_BLOG: 'Derniers articles'
+  LATEST_BLOG: 'Derniers articles',
+  CALENDAR_TITLE: 'Derniers Evènements'
 };

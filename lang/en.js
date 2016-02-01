@@ -20,5 +20,6 @@ languages.en = {
   BLOG_TITLE: 'Blog',
   LATEST_VIDEOS: 'Latest Videos',
   LATEST_BLOG: 'Latest blog articles',
-  TWITTER_TITLE: 'Latest Tweets'
+  TWITTER_TITLE: 'Latest Tweets',
+  CALENDAR_TITLE: 'Latest Events'
 };
