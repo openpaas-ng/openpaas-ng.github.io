@@ -4,7 +4,7 @@ languages.fr = {
   TITLE: 'OpenPaaS',
   MAIN_TITLE: 'Bureau virtuel OpenPaaS',
   MAIN_TAGLINE: 'La collaboration professionnelle, simple',
-  MAIN_H2: 'Présentation général du projet OpenPaaS::NG',
+  MAIN_H2: 'Présentation générale du projet OpenPaaS::NG',
   MAIN_P1: 'Un mini résumé de ce qu on trouveras sur les autres pages du site : quelques mots à propos du projet de recherche, sur les fonctionnalités et sur nos partenaires',
   PRESENTATION_TITLE: 'Présentation',
   PRESENTATION_CONTENTS: 'Cette page présentera le projet en mettant un accent sur la partie recherche : dans quel cadre a été initié ce projet, quels sont les enjeux, les contraintes, les débouchés, les dangers, etc.',
