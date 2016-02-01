@@ -21,4 +21,11 @@ angular.module('openpaas-site', ['ngRoute', 'pascalprecht.translate'])
     restict: 'E',
     templateUrl: '/templates/footer.html'
   };
+})
+
+.directive('navBar', function() {
+  return {
+    restict: 'E',
+    templateUrl: '/templates/navbar.html'
+  };
 });
