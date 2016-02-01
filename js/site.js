@@ -7,7 +7,7 @@ angular.module('openpaas-site', ['ngRoute', 'pascalprecht.translate'])
   });
 
   $translateProvider.determinePreferredLanguage()
-                    .fallbackLanguage('en');
+                    .fallbackLanguage('fr');
 
 }])
 .run(['$route', function($route) {
