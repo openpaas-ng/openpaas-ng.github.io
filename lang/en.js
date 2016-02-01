@@ -19,5 +19,6 @@ languages.en = {
   VIDEOS_TITLE: 'Latest Videos',
   BLOG_TITLE: 'Blog',
   LATEST_VIDEOS: 'Latest Videos',
-  LATEST_BLOG: 'Latest blog articles'
+  LATEST_BLOG: 'Latest blog articles',
+  TWITTER_TITLE: 'Latest Tweets'
 };

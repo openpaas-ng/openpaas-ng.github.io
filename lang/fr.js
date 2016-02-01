@@ -50,7 +50,7 @@ languages.fr = {
   APROPOS_TITLE: 'Qui sommes-nous',
   APROPOS_CONTENTS: 'Quels organisations travaillent sur openpaas ? quels sont leurs spécialités avec des liens vers leurs sites institutionnels ?',
   VIDEOS_TITLE: 'Dernières Vidéos',
-  TWITTER_TITLE: 'Dernièrs Tweets',
+  TWITTER_TITLE: 'Derniers Tweets',
   LATEST_VIDEOS: 'Dernières Vidéos',
   LATEST_BLOG: 'Derniers articles'
 };
