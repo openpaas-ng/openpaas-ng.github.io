@@ -1,4 +1,4 @@
-/*!
+﻿/*!
  * Start Bootstrap - Freelancer Bootstrap Theme (http://startbootstrap.com)
  * Code licensed under the Apache License v2.0.
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
@@ -41,6 +41,11 @@ h6 {
     font-weight: 700;
 }
 
+.titlehome {
+    text-transform: none;
+	font-size:22px;
+}
+
 hr.star-light,
 hr.star-primary {
     margin: 25px auto 30px;
@@ -51,7 +56,7 @@ hr.star-primary {
     text-align: center;
 }
 
-hr.star-small {
+hr.star-light-small {
     margin: 15px auto 20px;
     padding: 0;
     max-width: 150px;
@@ -59,6 +64,16 @@ hr.star-small {
     border-top: solid 2px;
     text-align: center;
 	border-color: #fff;
+}
+
+hr.star-primary-small {
+    margin: 15px auto 20px;
+    padding: 0;
+    max-width: 150px;
+    border: 0;
+    border-top: solid 2px;
+    text-align: center;
+	border-color: #000;
 }
 
 hr.star-light {
@@ -220,6 +235,27 @@ section.pres {
     color: #000;
     background: #fff;
 }
+section.preshome {
+    color: #333333;
+    background: #f8f8f8;
+	padding: 100px 0;
+}
+section.presgeneral {
+    color: #000;
+    background: #fff;
+	padding: 150px 0 50px;
+}
+section.partenaires {
+    color: #333333;
+    background: #f8f8f8;
+	padding:50px 0;
+}
+
+section.innovations {
+    color: #000;
+    background: #fff;
+	padding:50px 0;
+}
 
 section.success a,
 section.success a:hover,
@@ -315,6 +351,24 @@ section.success a.active {
 .btn-outline:active,
 .btn-outline.active {
     border: solid 2px #fff;
+    color: #488FCC;
+    background: #fff;
+}
+
+.btn-livrables {
+    margin-top: 15px;
+    border: solid 2px #488FCC;
+    font-size: 20px;
+    color: #fff;
+    background:#488FCC;
+    transition: all .3s ease-in-out;
+}
+
+.btn-livrables:hover,
+.btn-livrables:focus,
+.btn-livrables:active,
+.btn-livrables.active {
+    border: solid 2px #488FCC;
     color: #488FCC;
     background: #fff;
 }
@@ -532,4 +586,8 @@ footer .footer-below {
 }
 .iconscolor{
     color: #488FCC;
+}
+
+.iconscolor2{
+    color: #fff;
 }

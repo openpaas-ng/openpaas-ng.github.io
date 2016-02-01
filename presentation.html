@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html ng-app="openpaas-site" ng-cloak>
 
 <head>
@@ -10,6 +10,8 @@
     <meta name="author" content="">
 
     <title>{{ 'TITLE' | translate }}</title>
+	
+	<link rel="shortcut icon" href="img/openpaas_bubbles.svg">
 
     <!-- Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
@@ -71,18 +73,209 @@
         <!-- /.container-fluid -->
     </nav>
 
-	<!-- Features Section -->
-    <section class="pres">
+	<!-- OpenPaaS Section -->
+    <section class="presgeneral">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2>{{ 'PRESENTATION_TITLE' | translate }}</h2>
+				<div class="thumbnail">
+					<img src="img/partenaires/openpaasng.jpg" alt="OpenPaaS::NG">
+					</div>
+                    <p><strong>OpenPaaS::NG</strong> est un projet de recherche instruit par la <strong>Bpifrance</strong> (Banque Publique d'Investissement) dans le cadre du programme <strong>PSPC</strong> (Projet Structurant Pour la Compétitivité) réunissant un consortium de 5 partenaires académiques et industriels français. Il a été labéllisé par le pôle de compétitivité <strong>Cap Digital</strong> et est financé par le gouvernement français dans le cadre du programme des Investissements d'Avenir.</p>
+					<ul class="list-inline item-details">
+						<li>Durée :<strong>4 ans</strong></li>
+						<li>Date de début :<strong>01/04/2015</strong></li>
+						<li>Date de fin :<strong>31/03/2019</strong></li>
+						<li>Participants :<strong>5</strong></li>
+					</ul>
+				</div>
+			</div>
+			<hr class="star-primary-small">
+            <div class="row text-center ">
+                <p>Le projet <strong>OpenPaaS::NG</strong> vise le développement d'une offre open source française de plateforme de collaboration de nouvelle génération (de type Cloud) pour les entreprises et les administrations afin de développer une indépendance technologique vis-à-vis des grands acteurs classiques du numérique. Cette plateforme open source réunit plusieurs solutions :</p>
+            </div>
+			<div class="row">
+						<div class="col-lg-3">
+							<p>Une infrastructure résiliante offrant des services de base pour la collaboration temps réel en mode connecté ou non (authentification, identification, sécurisation, synchronisation des données, composition d'applications).</p>
+						</div>
+						<div class="col-lg-3">
+							<p>Un ensemble de services à valeur ajoutée (édition de textes, de présentations et de feuilles de calcul, modélisateur de processus métier et réseau Social d'Entreprise de nouvelle génération).</p>
+						</div>
+						<div class="col-lg-3">
+							<p>Un environnement complet pour les réunions virtuelles alliant les technologies de communication pair-à-pair de type WebRTC avec des technologies de filtrage en temps réel des flux audios pour proposer une expérience utilisateur inédite alliant l'organisation sociale, la communication vidéo et la recommandation dans le navigateur internet.</p>
+						</div>
+						<div class="col-lg-3">
+							<p>Une communauté open source active autour des approches collaboratives. Déjà initiée au sein du consortium OW2, elle s'articulera autour des contributions structurantes de Linagora, Nexedi et XWiki.p>
+						</div>
+            </div>
+        </div>
+    </section>
+	
+		<!-- Le projet Section -->
+    <section class="partenaires">
+        <div class="container">
+			 <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Partenaires / Labos</h2>
                     <hr class="star-primary">
                 </div>
             </div>
-            <div class="row">
+            <div class="row text-center ">
+                <p>Le projet <strong>OpenPaaS::NG</strong> orchestre cinq partenaires dont trois PME : <strong>LINAGORA</strong>, <strong>XWIKI</strong> et <strong>NEXEDI</strong>, et deux laboratoires de recherche : <strong>LIX</strong> et <strong>LORIA</strong>.</p>
+            </div>
+			<hr class="star-primary-small">
+			<div class="row">
+			  <div class="col-md-4">
+				<div class="thumbnail">
+				  <img src="img/partenaires/logo_linagora-HD.png" alt="logo_linagora">
+				</div>
+			  </div>
+			  <div class="col-md-8">
+					<p>Leader historique du marché du logiciel libre en France depuis 15 ans, édite ses propres logiciels open source et propose une gamme de services professionnels. L'activité d'édition open source s'articule autour de cinq offres innovantes : (1) OBM : outils d messagrie et de travail collaboratif. (2) LinShare : application de partage de fichiers sécurisé. (3) LinPKI : application de sécurité. (4) LinID : applications de gestion et de fédération ds identités. (5) Petals ESB : Service de bus d'entreprise. Linagora développe une activité de R&D très important et est aujourd'hui n Franc le principal investisseur privé en R&D open source. Linagora est aussi référencé à l'UGAP sur le contrat de services sur les prestations informatiques liées aux logiciels.</p>
+					<p><strong>Rôle dans le projet</strong> : chef de file, plateforme collaborative.</p>
+			  </div>
+			</div>
+			<hr class="star-primary-small">
+			<div class="row">
+			  <div class="col-md-4">
+				<div class="thumbnail">
+				  <img src="img/partenaires/logo_lix.png" alt="logo_lix">
+				</div>
+			  </div>
+			  <div class="col-md-8">
+					<p>Laboratoire d'Informatique de l'École Polytechnique, est une Unité Mixte de Recherche (UMR) X-CNRS d'environ 120 membres. Les activités de recherche du LIX se regroupent en trois axes: (1) Algorithmes, Combinatoire, Modèles. (2) Informatique distribuée et sécurité. (3) Calcul symbolique et preuve. Chacun de ces axes est organisé en équipes de recherche. Par ailleurs, le LIX a des relations contractuelles avec des organismes publics ou des organisations internationales. Au cours des dernières années, le LIX s'est attaché à développer de nombreuses collaborations avec le monde industriel et est fortement impliqué dans des actions de développement logiciel.</p>
+					<p><strong>Rôle dans le projet</strong> : text mining, data mining.</p>
+			  </div>
+			</div>
+			<hr class="star-primary-small">
+			<div class="row">
+			  <div class="col-md-4">
+				<div class="thumbnail">
+				  <img src="img/partenaires/logo_xwiki.png" alt="logo_xwiki">
+				</div>
+			  </div>
+			  <div class="col-md-8">
+					<p>Société française innovante créée en 2004 et compte aujourd'hui une quarantaine d'employés. Elle est située en France, en Roumanie et en Algérie. XWIKI propose des solutions professionnelles répondant à tous les besoins de collaboration des organisations ainsi que de nombreux services. Les usages de XWIKI sont nombreux : intranets, sites collaboratifs, systèmes de gestion documentaire, etc. XWIKI travaille avec divers secteurs d'activité des organisations tels que l'éducation, les médias, la distribution et l'industrie. Avec plusieurs milliers d'entreprises utilisant son produit, XWIKI est le leader des solutions open source, collaboratives et professionnelles.</p>
+					<p><strong>Rôle dans le projet</strong> : édition collaborative temps-réel.</p>
+			  </div>
+			</div>
+			<hr class="star-primary-small">
+			<div class="row">
+			  <div class="col-md-4">
+				<div class="thumbnail">
+				  <img src="img/partenaires/logo_loria.jpg" alt="logo_loria">
+				</div>
+			  </div>
+			  <div class="col-md-8">
+					<p>Laboratoire Lorrain de Recherche en Informatique et ses Applications, est une Unité Mixte de Recherche (UMR 7503) commune à plusieurs établissements : le CNRS, l'Université de Lorraine et Inria. Le LORIA est un des plus grands laboratoires de la région lorraine et a pour mission la recherche fondamentale et appliquée en sciences informatiques et ce, depuis sa création, en 1977. Les travaux scientifiques du LORIA sont menés au sein de 30 équipes structurées en 5 départements, dont 15 sont communes avec INRIA, représentant un total de plus 450 personnes.</p>
+					<p><strong>Rôle dans le projet</strong> : algorithmes collaboratifs temps-réel, architecture pair-à-pair, sécurité.</p>
+			  </div>
+			</div>
+			<hr class="star-primary-small">
+			<div class="row">
+			  <div class="col-md-4">
+				<div class="thumbnail">
+				  <img src="img/partenaires/logo_nexedi.jpg" alt="logo_nexedi">
+				</div>
+			  </div>
+			  <div class="col-md-8">
+					<p>Lancée en 2001, est aujourd'hui un des plus grands fournisseurs de logiciel libre en Europe. NEXEDI développe et déploie des solutions d'entreprise dans le domaine de l'Entreprise Resource Planning (ERP), du Customer Relationship Management (CRM) et du commerce électronique (EBIZ) autour d'architectures et de logiciels libres. Par ailleurs, NEXEDI offre un support "24/7" pour ds entreprises et des institutions gouvernementales qui songent à migrer les applications et les systèmes critiques vers le domaine de l'open source.</p>
+					<p><strong>Rôle dans le projet</strong> : magasin d'applications.</p>
+			  </div>
+			</div>
+        </div>
+        </div>
+    </section>
+
+	<!-- Features Section -->
+    <section class="innovations">
+        <div class="container">
+			<div class="row">
                 <div class="col-lg-12 text-center">
-                    <p>{{ 'PRESENTATION_CONTENTS' | translate }}</p>
+                    <h2>Innovations / Verrous technologiques</h2>
+                    <hr class="star-primary">
+                </div>
+            </div>
+			<div class="row text-center ">
+                <p>Le projet <strong>OpenPaaS::NG</strong> propose une suite collaborative complète en temps réel qui innove dans de nombreux domaines. En particulier, il amène à lever les verrous scientifiques majeurs suivants :</p>
+            </div>
+            <div class="row">
+				<div class="media">
+					<div class="media-left media-middle">
+						<span class="fa-stack fa-2x">
+							<i class="fa fa-circle fa-stack-2x "></i>
+							<i class="fa fa-hand-peace-o fa-stack-1x iconscolor2"></i>
+						</span>
+					</div>
+					<div class="media-body">
+						<p>Infrastructure de collaboration pair-à-pair hybride multi-modale. C'est un élément central du projet et consiste à fournir les services collaboratifs de base (partage, réplication, etc.) tout en supportant plusieurs modes de collaboration (connecté, déconnecté, ad-hoc, inter-organisationnel).</p>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="media">
+					<div class="media-left media-middle">
+						<span class="fa-stack fa-2x">
+							<i class="fa fa-circle fa-stack-2x "></i>
+							<i class="fa fa-video-camera fa-stack-1x iconscolor2"></i>
+						</span>
+					</div>
+					<div class="media-body">
+						<p>Environnement de réunion virtuelle contextualisé. Durant ce projet, des méthodologies de création de résumé automatique pour des conférences de plus de deux participants. Pour chaque réunion, deux résumés (global et en temps réel) seront produits à partir de textes typés et convertis automatiquement à partir de la parole.</p>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="media">
+					<div class="media-left media-middle">
+						<span class="fa-stack fa-2x">
+							<i class="fa fa-circle fa-stack-2x "></i>
+							<i class="fa fa-gears fa-stack-1x iconscolor2"></i>
+						</span>
+					</div>
+					<div class="media-body">
+						<p>Recommandation et inférence avancées. Une des principales nouveautés est de répondre à la mise à jour de sujet en discussion. Ceci pose problème où les deux points suivantes devront être traités : (1) Détection de la "fenêtre de temps" du sujet actuel, et (2) Poursuite de plusieurs utilisateurs.</p>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="media">
+					<div class="media-left media-middle">
+						<span class="fa-stack fa-2x">
+							<i class="fa fa-circle fa-stack-2x "></i>
+							<i class="fa fa-user-secret fa-stack-1x iconscolor2"></i>
+						</span>
+					</div>
+					<div class="media-body">
+						<p>Sécurité des accès aux données distribuées. Aspect clé des systèmes collaboratifs actuels, les différents mécanismes de collaboration mis en œuvre dans ce projet permettront de partager et de collaborer sur des données tout en préservant la confidentialité de celles ci, en contrôlant leur intégrité et en assurant un niveau acceptable de sécurisation des accès.</p>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="media">
+					<div class="media-left media-middle">
+						<span class="fa-stack fa-2x">
+							<i class="fa fa-circle fa-stack-2x "></i>
+							<i class="fa fa-check fa-stack-1x iconscolor2"></i>
+						</span>
+					</div>
+					<div class="media-body">
+						<p>Optimisation de la qualité d l'expérience utilisateur dans les applications collaboratives. Dans ce projet, nous proposons d'intégrer la mesure de cette qualité lors de session de travail collaboratif dans différents contextes et de lier cette mesure à celle de la qualité de service.</p>
+					</div>
+				</div>
+			</div>
+        </div>
+    </section>
+	
+	
+	<!-- Features Section -->
+    <section class="partenaires">
+        <div class="container">
+			<div class="row text-center ">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <a class="btn btn-lg btn-livrables" href="https://research.linagora.com/display/openpaasng/Work+Packages+and+Deliverables">
+                        <i class="fa fa-download"></i> Voir les Publications/Livrables
+                    </a>
                 </div>
             </div>
         </div>
