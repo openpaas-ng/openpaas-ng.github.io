@@ -18,5 +18,6 @@ languages.en = {
   APROPOS_CONTENT: 'The team OpenPaas is composed of 10 persons',
   VIDEOS_TITLE: 'Latest Videos',
   BLOG_TITLE: 'Blog',
-  LATEST_VIDEOS: 'Latest Videos'
+  LATEST_VIDEOS: 'Latest Videos',
+  LATEST_BLOG: 'Latest blog articles'
 };
