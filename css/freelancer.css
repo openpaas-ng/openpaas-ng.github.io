@@ -591,3 +591,7 @@ footer .footer-below {
 .iconscolor2{
     color: #fff;
 }
+
+.latest-blog iframe {
+    margin: auto;
+}
