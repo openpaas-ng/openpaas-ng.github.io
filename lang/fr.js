@@ -5,11 +5,11 @@ languages.fr = {
   MAIN_TITLE: 'Bureau virtuel OpenPaaS',
   MAIN_TAGLINE: 'La collaboration professionnelle, simple',
   MAIN_H2: 'Présentation générale du projet OpenPaaS::NG',
-  MAIN_P1: '<p class="text-center"><strong class="iconscolor">OpenPaaS::NG</strong> est un projet de recherche financé par l\'état français.</p>' +
-           '<p>Son objectif est de fournir un bureau virtuel, qui offre l\'ensemble des fonctionnalités nécessaires pour travailler, de manière collaborative, dans une organisation et une entreprise: gestion du planning, édition de documents, vidéo-conférences.</p>' +
-           '<p> La plateforme OpenPaaS::NG est ouverte, libre et gratuite: elle repose sur des Open API et dispose d\'un App Store pour y ajouter des fonctionnalités.</p>' +
-           '<p>Le projet de recherche a pour ambition de s\'appuyer sur les nouvelles technologies <strong>peer to peer WebRTC</strong>, <strong>reconnaissance vocale</strong>, <strong>analyse sémantique</strong>, <strong>machine learning</strong>, et encore <strong>blockchain</strong> afin d\'offrir des services de collaboration de nouvelle génération.</p>' +
-           '<p>Le projet est réalisé par un consortium réunissant <a href="about-us.html">des entreprises innovantes et des laboratoires de recherche</a>.</p>',
+  MAIN_P1: '<p class="text-center font-size-plus"><strong class="iconscolor">OpenPaaS::NG</strong> est un projet de recherche subventionné par l\'état français.</p>' +
+           '<p class="font-size-plus">Son objectif est de fournir un bureau virtuel, qui offre l\'ensemble des fonctionnalités nécessaires pour travailler, de manière collaborative, dans une organisation et une entreprise: gestion du planning, édition de documents, vidéo-conférences.</p>' +
+           '<p class="font-size-plus"> La plateforme OpenPaaS::NG est ouverte, libre et gratuite: elle repose sur des Open API et dispose d\'un App Store pour y ajouter des fonctionnalités.</p>' +
+           '<p class="font-size-plus">Le projet de recherche a pour ambition de s\'appuyer sur les nouvelles technologies <strong>peer to peer WebRTC</strong>, <strong>reconnaissance vocale</strong>, <strong>analyse sémantique</strong>, <strong>machine learning</strong>, et encore <strong>blockchain</strong> afin d\'offrir des services de collaboration de nouvelle génération.</p>' +
+           '<p class="font-size-plus">Le projet est réalisé par un consortium réunissant <a href="about-us.html">des entreprises innovantes et des laboratoires de recherche</a>.</p>',
   PRESENTATION_TITLE: 'Présentation',
   PRESENTATION_CONTENTS: "OpenPaaS::NG est un projet de recherche instruit par la Bpifrance (Banque Publique d'Investissement) dans le cadre du programme PSPC (Projet Structurant Pour la Compétitivité) réunissant un consortium de 5 partenaires académiques et industriels français. Il a été labéllisé par le pôle de compétitivité Cap Digital et est financé par le gouvernement français dans le cadre du programme des Investissements d'Avenir.",
   FONCTIONNALITES_TITLE: 'Fonctionnalités',

@@ -595,3 +595,7 @@ footer .footer-below {
 .latest-blog iframe {
     margin: auto;
 }
+
+p.font-size-plus, .font-size-plus {
+  font-size: 1.1em;
+}
