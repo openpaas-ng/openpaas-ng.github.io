@@ -15,6 +15,8 @@ body {
 
 p {
     font-size: 16px;
+
+    text-align: justify;
 }
 
 p.small {
@@ -225,7 +227,7 @@ section.normal {
 section.contact {
     color: #000;
     background: #f8f8f8;
-	padding: 100px 0;
+	padding: 0;
 }
 section.success {
     color: #fff;
@@ -238,7 +240,7 @@ section.pres {
 section.preshome {
     color: #333333;
     background: #f8f8f8;
-	padding: 100px 0;
+	padding: 0;
 }
 section.presgeneral {
     color: #000;
@@ -264,6 +266,22 @@ section.success a:active,
 section.success a.active {
     outline: 0;
     color: #2c3e50;
+}
+
+article.technology{
+    display: inline-block;
+}
+
+aside.asideleft{
+    float: left;
+}
+
+aside.asideright{
+    float: right;
+}
+
+section.asideright{
+    float: right;
 }
 
 .rowmargin {
@@ -592,6 +610,10 @@ footer .footer-below {
     color: #fff;
 }
 
+.iconscolor3{
+    color: #488FCC;
+    font-size: 1.5em;
+}
 .latest-blog iframe {
     margin: auto;
 }
