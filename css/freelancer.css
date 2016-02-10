@@ -206,6 +206,10 @@ header .intro-text .skills {
     border: 0;
 }
 
+div.row2{
+    border: 2px solid #69D2E7;
+} 
+
 section {
     padding: 150px 0;
 }
@@ -268,15 +272,21 @@ section.success a.active {
     color: #2c3e50;
 }
 
+p.subtitle{
+    font-size: 1em;
+    text-align: center;
+}
 article.technology{
     display: inline-block;
 }
 
 aside.asideleft{
+    display: inline-block;
     float: left;
 }
 
 aside.asideright{
+    display: inline-block;
     float: right;
 }
 
