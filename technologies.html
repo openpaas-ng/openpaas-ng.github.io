@@ -1,4 +1,5 @@
-﻿<!DOCTYPE html>
+﻿
+<!DOCTYPE html>
 <html ng-app="openpaas-site" ng-cloak>
 
 <head>
@@ -10,7 +11,7 @@
     <meta name="author" content="">
 
     <title>{{ 'TITLE' | translate }}</title>
-	
+
 	<link rel="shortcut icon" href="img/openpaas_bubbles.svg">
 
     <!-- Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
@@ -37,69 +38,110 @@
 
     <nav-bar></nav-bar>
 
-	<!-- Features Section -->
+    <!-- Le projet Section -->
     <section class="pres">
         <div class="container">
-            <div class="row">
+       <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2>{{ 'TECHNOLOGIES_TITLE' | translate }}</h2>
+                    <h2>Technologies</h2>
                     <hr class="star-primary">
                 </div>
             </div>
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <p class="subtitle">{{ 'TECHNOLOGIES_CONTENTS' | translate }}</p>
-                </div>
+            <div class="row text-center ">
+                <p>Le projet <strong class="iconscolor">OpenPaaS::NG</strong > utilise des technologies modernes et OpenStandard.</p>
             </div>
-            <div class="row">
-                <article class="technology">
-                    <h2>AngularJS</h2>
-                    <p>AngularJS est un framework JavaScript développé par Google. Il possède une grande communauté qui lui permet de bénéficier d'une pléthore de modules. Il est conçu pour séparer complètement le code métier et le code d'interaction utilisateur. Cela permet aux développeurs de plus aisément séparer correctement les problématiques ( application du SRP ), de tester correctement l'ensemble de l'application Web et de réutiliser les services métiers avec d'autres interfaces.</p>
-                </article>
-                <aside class="asideleft"><img src="img/angular-icon.svg"></aside>
-            </div>
-            <div class="row">
-                <article class="technology">
-                    <h2>NodeJS</h2>
-                    <p>NodeJs sert en général de dispatcheur de requêtes puis d'agrégateur de résultats. Il fournit les ressources statiques (HTML Templates, clientside, javascript files, CSS files, images...) ainsi que l'API REST aux clients OpenPaaS. Il sert aussi de serveur websocket, assurant les fonctionnalités temps-réel de la plateforme.</p>
-                </article>
-                <aside class="asideright"><img src="img/nodejs.svg"></aside>
-            </div>
-            <div class="row">
-                <article class="technology">
-                    <h2>MongoDB</h2>
-                    <p>MongoDB est une base de données NoSQL orientée douments qui permet entre autres de rajouter des clés sans reconfiguration. Les données sont manipulables à l'aide de JavaScript et d'autres langages. Cette base de données utilise également la réplication ce qui permet la sécurité des données, et le sharding pour assurer la scalabilité horizontale.</p>
-                </article>
-                <aside class="asideleft"><img src="img/mongodb.svg"></aside>
-            </div>
-            <div class="row">
-                <article class="technology">
-                    <h2>ElasticSearch</h2>
-                    <p>Elasticsearch est un moteur de recherche, s'appuyant sur un puissant système d'indexation qui inclue notamment la possibilité de customiser les index. Il bénéficie aussi d'une grande scabilité. C'est pourquoi il est utilié par des géants de l'internet, tel que Github.</p>
-                </article>
-                <aside class="asideleft"><img src="img/Elasticsearh.png"></aside>
-            </div>
-             <div class="row">
-                <article class="technology">
-                    <h2>WebRTC / Netflux</h2>
-                    <p>WebRTC est un projet qui permet aux navigateurs et aux applications mobiles d'avoir accès à la communication en temps réel via des APIs simples. La technologie WebRTC permet à un serveur central de mettre en relation des clients pour une communication pair à pair. Les pairs peuvent alors échanger des données et des flux audio et vidéo.Nous l'utilisons dans le service OpenPaaS de vidéoconférence Hubl.in.</p>
-                </article>
-                <aside class="asideleft"><img src="img/webrtc.svg"></aside>
-            </div>
-             <div class="row">
-                <article class="technology">
-                    <h2>Cassandra</h2>
-                    <p>Cassandra est une base de données NoSQL orientée colonnes conçue notamment pour les bases de données très importantes installées sur plusieurs serveurs. Il permet d'éviter la perte de données en copiant automatiquement les données sur de multiples noeuds. C'est un outil utilisé par des sociétés d'envergure comme le CERN, eBay, Instagram, Netflix, Github, ...</p>
-                </article>
-                <aside class="asideleft"><img src="img/cassandra.svg"></aside>
-            </div>
-             <div class="row">
-                <article class="technology">
-                    <h2>Spark</h2>
-                    <p>Spark est un framework OpenSource de calcul distribué pensé pour les grandes bases de données. Il est en général utilisé pour effectuer les opérations de data mining et machine learning sur un nombre important de données. Spark bénéficie d'un large nombre de contributeurs.</p>
-                </article>
-                <aside class="asideleft"><img src="img/spark.svg"></aside>
-            </div>
+      <hr class="star-primary-small">
+      <div class="row">
+        <div class="col-md-4">
+        <div class="thumbnail">
+          <a href="https://angularjs.org/">
+            <img class="image-size2" src="img/angular-icon.svg" alt="logo_angular">
+          </a>
+        </div>
+        </div>
+        <div class="col-md-8">
+          <p>AngularJS est un framework JavaScript développé par Google. Il possède une grande communauté qui lui permet de bénéficier d'une pléthore de modules. Il est conçu pour séparer complètement le code métier et le code d'interaction utilisateur. Cela permet aux développeurs de plus aisément séparer correctement les problématiques ( application du SRP ), de tester correctement l'ensemble de l'application Web et de réutiliser les services métiers avec d'autres interfaces.</p>
+        </div>
+      </div>
+      <hr class="star-primary-small">
+      <div class="row">
+        <div class="col-md-4">
+        <div class="thumbnail">
+          <a href="https://nodejs.org/en/">
+            <img class="image-size2" src="img/nodejs.svg" alt="logo_nodejs">
+          </a>
+        </div>
+        </div>
+        <div class="col-md-8">
+          <p>MongoDB est une base de données NoSQL orientée douments qui permet entre autres de rajouter des clés sans reconfiguration. Les données sont manipulables à l'aide de JavaScript et d'autres langages. Cette base de données utilise également la réplication ce qui permet la sécurité des données, et le sharding pour assurer la scalabilité horizontale.</p>
+        </div>
+      </div>
+      <hr class="star-primary-small">
+      <div class="row">
+        <div class="col-md-4">
+        <div class="thumbnail">
+          <a href="https://www.mongodb.org/">
+            <img src="img/mongodb.svg" alt="logo_mongodb">
+          </a>
+        </div>
+        </div>
+        <div class="col-md-8">
+          <p>MongoDB est une base de données NoSQL orientée douments qui permet entre autres de rajouter des clés sans reconfiguration. Les données sont manipulables à l'aide de JavaScript et d'autres langages. Cette base de données utilise également la réplication ce qui permet la sécurité des données, et le sharding pour assurer la scalabilité horizontale.</p>
+        </div>
+      </div>
+      <hr class="star-primary-small">
+      <div class="row">
+        <div class="col-md-4">
+        <div class="thumbnail">
+          <a href="https://www.elastic.co/">
+            <img class="image-size" src="img/Elasticsearch.svg" alt="logo_Elasticsearch">
+          </a>
+        </div>
+        </div>
+        <div class="col-md-8">
+          <p>Elasticsearch est un moteur de recherche, s'appuyant sur un puissant système d'indexation qui inclue notamment la possibilité de customiser les index. Il bénéficie aussi d'une grande scabilité. C'est pourquoi il est utilié par des géants de l'internet, tel que Github.</p>
+        </div>
+      </div>
+      <hr class="star-primary-small">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="thumbnail">
+            <a href="https://webrtc.org/">
+              <img  class="image-size" src="img/webrtc.svg" alt="logo_webrtc">
+            </a>
+          </div>
+        </div>
+        <div class="col-md-8">
+          <p>WebRTC est un projet qui permet aux navigateurs et aux applications mobiles d'avoir accès à la communication en temps réel via des APIs simples. La technologie WebRTC permet à un serveur central de mettre en relation des clients pour une communication pair à pair. Les pairs peuvent alors échanger des données et des flux audio et vidéo.Nous l'utilisons dans le service OpenPaaS de vidéoconférence Hubl.in.</p>
+        </div>
+      </div>
+      <hr class="star-primary-small">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="thumbnail">
+            <a href="http://cassandra.apache.org/">
+              <img class="image-size" src="img/cassandra.svg" alt="logo_cassandra">
+            </a>
+          </div>
+        </div>
+        <div class="col-md-8">
+          <p>Cassandra est une base de données NoSQL orientée colonnes conçue notamment pour les bases de données très importantes installées sur plusieurs serveurs. Il permet d'éviter la perte de données en copiant automatiquement les données sur de multiples noeuds. C'est un outil utilisé par des sociétés d'envergure comme le CERN, eBay, Instagram, Netflix, Github, ...</p>
+        </div>
+      </div>
+      <hr class="star-primary-small">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="thumbnail">
+            <a href="http://spark.apache.org/">
+              <img  class="image-size" src="img/spark.svg" alt="logo_spark">
+            </a>
+          </div>
+        </div>
+        <div class="col-md-8">
+          <p>Spark est un framework OpenSource de calcul distribué pensé pour les grandes bases de données. Il est en général utilisé pour effectuer les opérations de data mining et machine learning sur un nombre important de données. Spark bénéficie d'un large nombre de contributeurs.</p>
+        </div>
+      </div>
+        </div>
         </div>
     </section>
 

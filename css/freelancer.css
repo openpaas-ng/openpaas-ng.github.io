@@ -205,6 +205,15 @@ header .intro-text .skills {
     border: 0;
 }
 
+/*Entre ses balises le code c'est n'importe quoi 
+donc si quelqu'un de plus apte veut le changer libre à lui*/
+.image-size-angular{
+    max-width: 10em;
+}
+.image-size{
+    max-width: 15em;
+}
+/*Fin du code n'importe quoi*/
 div.row2{
     border: 2px solid #69D2E7;
 } 
@@ -271,32 +280,29 @@ section.success a.active {
     color: #2c3e50;
 }
 
+section.flex-content{
+    display: -webkit-flex;
+    display: flex;
+    align-item: center;
+    margin-top: 3em;
+    padding: 0;
+}
+
 p.subtitle{
     font-size: 1em;
     text-align: center;
 }
-article.technology{
-    display: inline-block;
-}
-
-aside.asideleft{
-    display: inline-block;
-    float: left;
-}
-
-aside.asideright{
-    display: inline-block;
-    float: right;
-}
-
-section.asideright{
-    float: right;
-}
-
 .rowmargin {
     margin-bottom:50px;
 }
 
+img.image-size{
+    width: 11em;
+}
+
+img.image-size2{
+    width: 9em;
+}
 @media(max-width:767px) {
     section {
         padding: 75px 0;
